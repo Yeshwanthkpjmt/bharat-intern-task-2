@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="top-bar"></div>
+        <nav>
+            <h1 class="logo">Netflix</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Latest</a></li>
+                <li><a href="#">My List</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Unlimited movies, TV shows, and more.</h1>
+            <p>Watch anywhere. Cancel anytime.</p>
+        </div>
+    </section>
+
+    <!-- Featured Content -->
+    <section class="featured">
+        <h2>Featured</h2>
+        <div class="featured-content">
+            <div class="content-item">
+                <h3>Popular Movies</h3>
+                <ul>
+                    <li>Interstellar</li>
+                    <li>Inception</li>
+                    <li>The Matrix</li>
+                    <li>Gladiator</li>
+                    <li>The Shawshank Redemption</li>
+                    <li>Forrest Gump</li>
+                </ul>
+            </div>
+            <div class="content-item">
+                <h3>Top TV Shows</h3>
+                <ul>
+                    <li>Stranger Things</li>
+                    <li>Breaking Bad</li>
+                    <li>The Crown</li>
+                    <li>Black Mirror</li>
+                    <li>Narcos</li>
+                    <li>Money Heist</li>
+                </ul>
+            </div>
+            <div class="content-item">
+                <h3>Action Movies</h3>
+                <ul>
+                    <li>Die Hard</li>
+                    <li>Mad Max: Fury Road</li>
+                    <li>John Wick</li>
+                    <li>Avatar</li>
+                    <li>Terminator 2: Judgment Day</li>
+                    <li>Guardians of the Galaxy</li>
+                </ul>
+            </div>
+            <div class="content-item">
+                <h3>Comedy Movies</h3>
+                <ul>
+                    <li>The Hangover</li>
+                    <li>Superbad</li>
+                    <li>Deadpool</li>
+                    <li>Shaun of the Dead</li>
+                    <li>Zombieland</li>
+                    <li>Monty Python and the Holy Grail</li>
+                </ul>
+            </div>
+            <div class="content-item">
+                <h3>Recommended Languages</h3>
+                <ul>
+                    <li>English</li>
+                    <li>Spanish</li>
+                    <li>French</li>
+                    <li>German</li>
+                    <li>Japanese</li>
+                    <li>Korean</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Netflix</p>
+    </footer>
+
+</body>
+</html>
